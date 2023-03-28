@@ -1,0 +1,10 @@
+{
+  "name": "Budget Tracker",
+  "short_name": "JATE",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "An application that allows you to track your budget online and offline.",
+  "background_color": "#01579b",
+  "theme_color": "#ffffff"
+}

@@ -25,7 +25,7 @@ module.exports = () => {
       }),
 
       new InjectManifest({
-        swSrc: './src/sw.js',
+        swSrc: './src/src-sw.js',
         swDest: 'sw.js',
       }),
 
@@ -39,13 +39,13 @@ module.exports = () => {
         theme_color: '#ffffff',
         start_url: '/',
         publicPath: '/',
-        icons: [
-          {
-            src: path.resolve('src/images/icons/icon-192x192.png'),
-            sizes: [96, 128, 192, 256, 384, 512],
-            destination: path.join('assets', 'icons'),
-          },
-        ],
+        // icons: [
+        //   {
+        //     src: path.resolve('src/images/icons/icon-192x192.png'),
+        //     sizes: [96, 128, 192, 256, 384, 512],
+        //     destination: path.join('assets', 'icons'),
+        //   },
+        // ],
       }),
       
     ],
